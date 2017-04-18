@@ -13,3 +13,14 @@ Text Domain: wunderfurn
 We believe in life, liberty, and Chipotle.
 Be your best self and stick to your guns.
 */
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+h1 {
+}
