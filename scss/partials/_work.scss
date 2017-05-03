@@ -1,0 +1,20 @@
+.category-thumbnail {
+  position: relative;
+  height: 50%;
+  width: 50%;
+  float: left;
+  display: inline-block;
+  @include background-settings;
+  outline: 5px solid white;
+  outline-offset: -5px;
+  h2 {
+    position: absolute;
+    @include full-center;
+    font-weight: lighter;
+    color: white;
+  }
+  a {
+    position: absolute;
+    @include filter-position;
+  }
+}

@@ -1,0 +1,28 @@
+@import "modules/_mixins.scss";
+
+html {
+  overflow: hidden;
+}
+
+body {
+  position: relative;
+  font-family: 'Muli', sans-serif;
+  height: 95vh;
+  width: 100vw;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.frame-inner {
+  position: absolute;
+  top: 70px;
+  left: 70px;
+  bottom: 70px;
+  right: 70px;
+  margin: 0;
+}
+
+@import "partials/_frame.scss";
+@import "partials/_home.scss";
+@import "partials/_work.scss";

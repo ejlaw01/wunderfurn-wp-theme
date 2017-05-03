@@ -1,8 +1,6 @@
-    <p>Footer</p>
-
 
     <footer>
-      <p>Copyright Wunderfurn Photography <?php echo date('Y'); ?></p>
+      <!-- <p>Copyright Wunderfurn Photography <?php echo date('Y'); ?></p> -->
     </footer>
 
     </div>

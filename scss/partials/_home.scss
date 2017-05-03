@@ -1,0 +1,5 @@
+.full-frame-fill {
+  position: absolute;
+  @include filter-position;
+  @include background-settings;
+}
