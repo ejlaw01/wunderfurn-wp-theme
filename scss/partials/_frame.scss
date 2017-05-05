@@ -4,6 +4,8 @@
   left: 0;
   bottom: 0;
   right: 0;
+  height: 100vh;
+  width: 100vw;
 }
 
 .horizontal-bar {
@@ -64,4 +66,19 @@
       padding: 20px;
     }
   }
+}
+
+.frame-inner {
+  position: absolute;
+  top: 70px;
+  left: 70px;
+  bottom: 70px;
+  right: 70px;
+  max-height: 100vh;
+  margin: 0;
+}
+
+.scroller {
+  right: auto;
+  overflow-x: scroll;
 }
