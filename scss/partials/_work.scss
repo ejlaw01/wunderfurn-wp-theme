@@ -20,19 +20,20 @@
 }
 
 .gallery-column {
-  display: inline;
+  display: inline-block;
   position: relative;
-  float: left;
   height: 100%;
+  white-space: nowrap;
+  z-index: -1;
 }
 
 .gallery-image {
   position: relative;
-  display: inline;
   float: left;
   overflow-x: scroll;
   outline: 5px solid white;
   outline-offset: -5px;
+  white-space: nowrap;
 }
 
 .small_horizontal {
